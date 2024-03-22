@@ -15,6 +15,9 @@ In today’s digital world, the need for enhanced accessibility to legal cases h
 - *Description*: Contains code for search query answering using the FLAN-T5 model. The model is fine-tuned to extract information and generate answers related to legal cases from the uploaded document.
 - *Usage*: Run the queryprocess_final.ipynb script to fine-tune the FLAN-T5 model and answer questions related to legal cases.
 
+## Dataset
+The dataset used in this project was curated using the elder brother method. A stronger Language Model (LLM) was used to generate data based on actual cases provided by an international law firm, LawYantra. This dataset includes cases used for both document summarization and question-answering tasks, providing a comprehensive set of examples for training and fine-tuning the model.
+
 ## Usage
 
 *LawLinks Legal Case Question Answering* is a project that utilizes a fine-tuned FLAN-T5 model to extract information and generate answers related to legal cases. It includes scripts for preprocessing data, fine-tuning the model, and using the model to answer questions.
