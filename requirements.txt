@@ -1,0 +1,9 @@
+torch
+fitz
+transformers
+csv
+json
+string
+nltk
+PyPDF2
+tqdm
